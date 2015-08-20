@@ -1,9 +1,11 @@
+
+@base: #f938ab;
 .navbar-default {
-  background-color: #244ecb;
+  background-color: #003F85;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #0042FF;
-    background-color: #F9FF13;
+    color: #003F85;
+    background-color: #FEE000;
 }
 .navbar-default .navbar-nav > .active >
 a, .navbar-default .navbar-nav > .active > a:hover,
@@ -37,5 +39,5 @@ a, .navbar-default .navbar-nav > .active > a:hover,
 .menu {
     float: left;
     margin: 0px;
-    margin-left: 300px;
+    margin-left: 330px;
 }
