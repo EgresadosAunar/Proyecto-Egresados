@@ -1,5 +1,5 @@
 
-@base: #f938ab;
+/*navbar*/
 .navbar-default {
   background-color: #003F85;
 }
@@ -23,7 +23,7 @@ a, .navbar-default .navbar-nav > .active > a:hover,
 }
 .navbar-right {
     float: right !important;
-    margin-right: 18%;
+    margin-right: 16%;
     margin-top: -8px;
 }
 
