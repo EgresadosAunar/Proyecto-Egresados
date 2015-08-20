@@ -23,21 +23,25 @@ a, .navbar-default .navbar-nav > .active > a:hover,
 }
 .navbar-right {
     float: right !important;
-    margin-right: -12px;
-    margin-top: 7px;
+    margin-right: 18%;
+    margin-top: -8px;
 }
+
 .glyphicon {
     position: relative;
-    top: 4px;
+    top: 24px;
     display: inline-block;
     font-family: "Glyphicons Halflings";
     font-style: normal;
     font-weight: normal;
     line-height: 1;
-    color: #fff;
+    color: #FFF;
+    right: 20px;
 }
-.menu {
-    float: left;
-    margin: 0px;
-    margin-left: 330px;
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #FEE000;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin-right: 7px;
+    margin-left: 18%;
 }

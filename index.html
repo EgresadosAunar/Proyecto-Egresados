@@ -9,10 +9,18 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav menu">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+              <button type="button" name="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion">
+                <span class="sr-only">Desplegar/ocultar Menu</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navegacion">
+            <ul class="nav navbar-nav" >
               <li><a href="#">INICIO </a></li>
               <li><a href="#">QUIENES SOMOS</a></li>
               <li><a href="#">SERVICIOS </a></li>
@@ -20,9 +28,9 @@
               <li><a href="#">BOLSA DE EPLEOS </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <form class="navbar-form navbar-left" role="search">
+              <form class="nav navbar-nav" role="search">
                 <div class="form-group">
-                  <span class="glyphicon glyphicon-search"></span>
+                  <span class="glyphicon glyphicon-search "></span>
                   <input type="text" class="form-control" placeholder="Buscar">
                 </div>
               </form>
